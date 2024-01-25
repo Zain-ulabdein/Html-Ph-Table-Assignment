@@ -1,0 +1,68 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2px;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+  height: 200px;
+  width: calc(100% / 15);
+}
+
+table.bordered td {
+  border: 1px solid #ddd;
+}
+
+table.ph-table td {
+  background-color: hsl(var(--ph-hue), 100%, 50%);
+}
+
+table.ph-table td:nth-child(1) {
+  --ph-hue: 0;
+}
+table.ph-table td:nth-child(2) {
+  --ph-hue: 15;
+}
+table.ph-table td:nth-child(3) {
+  --ph-hue: 30;
+}
+table.ph-table td:nth-child(4) {
+  --ph-hue: 45;
+}
+table.ph-table td:nth-child(5) {
+  --ph-hue: 60;
+}
+table.ph-table td:nth-child(6) {
+  --ph-hue: 75;
+}
+table.ph-table td:nth-child(7) {
+  --ph-hue: 90;
+}
+table.ph-table td:nth-child(8) {
+  --ph-hue: 105;
+}
+table.ph-table td:nth-child(9) {
+  --ph-hue: 120;
+}
+table.ph-table td:nth-child(10) {
+  --ph-hue: 135;
+}
+table.ph-table td:nth-child(11) {
+  --ph-hue: 150;
+}
+table.ph-table td:nth-child(12) {
+  --ph-hue: 165;
+}
+table.ph-table td:nth-child(13) {
+  --ph-hue: 180;
+}
+table.ph-table td:nth-child(14) {
+  --ph-hue: 195;
+}
+table.ph-table td:nth-child(15) {
+  --ph-hue: 210;
+}
+
+
